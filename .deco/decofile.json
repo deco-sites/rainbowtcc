@@ -101,6 +101,9 @@
     "cta": [],
     "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
   },
+  "Preview /sections/ImageWithParagraph.tsx": {
+    "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  },
   "Preview /sections/hero-1.tsx": {
     "__resolveType": "site/sections/hero-1.tsx"
   },
@@ -110,6 +113,9 @@
   "Preview Sections MyHero": {
     "name": "works!",
     "__resolveType": "site/sections/myHero.tsx"
+  },
+  "Preview site/sections/ImageWithParagraph.tsx": {
+    "__resolveType": "site/sections/ImageWithParagraph.tsx"
   },
   "Serene Coastline": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -270,6 +276,21 @@
         "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/43999173-3786-4a4b-be09-5d7313d0bc3b"
       },
       {
+        "__resolveType": "Preview /sections/IAmMori.tsx"
+      },
+      {
+        "__resolveType": "site/sections/IAmNathan.tsx",
+        "description": "Também sou um computeiro",
+        "person": {
+          "name": "Nathan Luiz Bezerra Martins",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/0368a5aa-84f4-46a9-97db-381a3760d67d"
+        },
+        "invertImage": true
+      },
+      {
+        "__resolveType": "IAmYoshiko"
+      },
+      {
         "__resolveType": "site/sections/Hero.tsx",
         "cta": [],
         "title": "<p>Click here to tweak this text however you want.</p>",
@@ -296,6 +317,12 @@
       },
       {
         "__resolveType": "site/sections/Footer.tsx"
+      },
+      {
+        "__resolveType": "Preview /sections/WhoAmI.tsx"
+      },
+      {
+        "__resolveType": "Preview /sections/WhoAmI.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -334,10 +361,30 @@
       "__resolveType": "Neutral"
     }
   },
-  "Preview /sections/ImageWithParagraph.tsx": {
-    "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  "Preview /sections/IAmMori.tsx": {
+    "__resolveType": "site/sections/IAmMori.tsx",
+    "person": {
+      "name": "Willian Miura Mori",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/9f332678-6afb-49a6-97e1-51a8cb13fd87"
+    },
+    "description": "Sou um computeiro MORISou um computeiro MORISou um computeiro MORISou um computeiro MORISou um computeiro MORISou um computeiro MORISou um computeiro MORISou um computeiro MORI",
+    "invertImage": false
   },
-  "Preview site/sections/ImageWithParagraph.tsx": {
-    "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  "Preview /sections/IAmNathan.tsx": {
+    "__resolveType": "site/sections/IAmMori.tsx",
+    "person": {
+      "name": "Nathan Luiz Bezerra Martins",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/0368a5aa-84f4-46a9-97db-381a3760d67d"
+    },
+    "description": "Sou um computeiro também",
+    "invertImage": true
+  },
+  "IAmYoshiko": {
+    "__resolveType": "site/sections/IAmMori.tsx",
+    "person": {
+      "name": "Yoshiko",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/37506e81-208e-4419-b99e-d056020ad36f"
+    },
+    "description": "Professora titular do Instituto de Matemática e Estatística da USP com foco em pesquisa em Combinatorial Optimization and Combinatorics and Graph Theory."
   }
 }
