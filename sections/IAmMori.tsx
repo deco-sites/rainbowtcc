@@ -3,11 +3,11 @@ import Image from "apps/website/components/Image.tsx";
 
 export interface Person {
   name: string;
-  image?: ImageWidget;
+  image: ImageWidget;
 }
 
 export interface Props {
-  person?: Person;
+  person: Person;
   description?: string;
   invertImage?: boolean;
 }
@@ -15,9 +15,9 @@ export interface Props {
 const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
 
-function DescriptionBox ({description} : {description: string}) {
+function DescriptionBox ({description} : {description?: string}) {
   return (
-    <div class="col-lg-5 flex">
+    <div class="w-[300px] col-lg-5 flex">
       <p>{description}</p>
     </div>
   )
@@ -38,13 +38,13 @@ export default function BlogPosts({
               width={640}
               class="w-full object-fit z-10"
               sizes="(max-width: 320px) 50vw, 15vw"
-              src={person?.image}
-              alt={person?.image}
+              src={person.image}
+              alt={person.image}
               decoding="async"
               loading="lazy"
             />
             <div class="p-6 space-y-4">
-              <div class="font-semibold">{person?.name}</div>
+              <div class="font-semibold">{person.name}</div>
             </div>
           </div>
           {!invertImage ? <DescriptionBox description={description} /> : <></>}
