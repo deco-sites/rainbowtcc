@@ -31,7 +31,7 @@ export default function BlogPosts({
   return (
     <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-10">
       <div class="space-y-16 gap-5 flex flex-row justify-center">
-        <div class="flex flex-row gap-5 justify-center">
+        <div class="flex flex-row gap-10 justify-center">
           {invertImage ? <DescriptionBox description={description}/> : <></>}
           <div class="border border-secondary rounded-lg overflow-hidden">
             <Image

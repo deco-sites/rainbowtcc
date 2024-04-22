@@ -89,7 +89,11 @@
     "__resolveType": "site/sections/Faq.tsx"
   },
   "Preview /sections/Footer.tsx": {
-    "__resolveType": "site/sections/Footer.tsx"
+    "__resolveType": "site/sections/Footer.tsx",
+    "links": [],
+    "bottomLinks": [],
+    "social": [],
+    "subscribe": {}
   },
   "Preview /sections/Header.tsx": {
     "__resolveType": "site/sections/Header.tsx"
@@ -268,12 +272,36 @@
     "path": "/",
     "sections": [
       {
-        "__resolveType": "site/sections/Header.tsx"
+        "__resolveType": "site/sections/Header.tsx",
+        "logo": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/868c223d-6627-460b-b3ca-feaf2b993dbf"
+        },
+        "navigation": {
+          "links": [
+            {
+              "label": "Home",
+              "url": "/"
+            },
+            {
+              "label": "About us",
+              "url": "/"
+            }
+          ],
+          "buttons": [
+            {
+              "id": "1",
+              "href": "/",
+              "text": "Rainbow TCC",
+              "outline": false
+            }
+          ]
+        }
       },
       {
-        "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "Landing",
-        "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/43999173-3786-4a4b-be09-5d7313d0bc3b"
+        "__resolveType": "Preview /sections/Proposal.tsx"
+      },
+      {
+        "__resolveType": "Preview /sections/WhoAmIHeader.tsx"
       },
       {
         "__resolveType": "Preview /sections/IAmMori.tsx"
@@ -291,38 +319,15 @@
         "__resolveType": "IAmYoshiko"
       },
       {
-        "__resolveType": "site/sections/Hero.tsx",
-        "cta": [],
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
         "__resolveType": "site/sections/Logos.tsx"
       },
       {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Landing",
+        "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/43999173-3786-4a4b-be09-5d7313d0bc3b"
       },
       {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Footer.tsx"
-      },
-      {
-        "__resolveType": "Preview /sections/WhoAmI.tsx"
-      },
-      {
-        "__resolveType": "Preview /sections/WhoAmI.tsx"
+        "__resolveType": "Preview /sections/Footer.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -386,5 +391,15 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/37506e81-208e-4419-b99e-d056020ad36f"
     },
     "description": "Professora titular do Instituto de Matemática e Estatística da USP com foco em pesquisa em Combinatorial Optimization and Combinatorics and Graph Theory."
+  },
+  "Preview /sections/WhoAmIHeader.tsx": {
+    "__resolveType": "site/sections/WhoAmIHeader.tsx",
+    "title": "<p>About us</p>"
+  },
+  "Preview /sections/Proposal.tsx": {
+    "__resolveType": "site/sections/Proposal.tsx"
+  },
+  "Preview /sections/Logos.tsx": {
+    "__resolveType": "site/sections/Logos.tsx"
   }
 }

@@ -19,7 +19,7 @@ export interface Nav {
       label?: string;
       url?: string;
     }[];
-    buttons: CTA[];
+    buttons?: CTA[];
   };
 }
 
