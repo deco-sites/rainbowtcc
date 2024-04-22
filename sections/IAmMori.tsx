@@ -35,9 +35,9 @@ export default function BlogPosts({
           {invertImage ? <DescriptionBox description={description}/> : <></>}
           <div class="border border-secondary rounded-lg overflow-hidden">
             <Image
-              width={640}
-              class="w-full object-fit z-10"
-              sizes="(max-width: 320px) 50vw, 15vw"
+              width={250}
+              class="z-10"
+              sizes="object-fit 50vw, 15vw"
               src={person.image}
               alt={person.image}
               decoding="async"
