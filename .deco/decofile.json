@@ -44,6 +44,14 @@
       ]
     }
   },
+  "IAmYoshiko": {
+    "__resolveType": "site/sections/IAmMori.tsx",
+    "person": {
+      "name": "Yoshiko",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/37506e81-208e-4419-b99e-d056020ad36f"
+    },
+    "description": "Professora Doutora titular do Instituto de Matemática e Estatística da USP com foco em pesquisa em Otimização Combinatória e Teoria dos Grafos."
+  },
   "Mobile": {
     "__resolveType": "website/matchers/device.ts",
     "mobile": true
@@ -105,8 +113,43 @@
     "cta": [],
     "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
   },
+  "Preview /sections/IAmMori.tsx": {
+    "__resolveType": "site/sections/IAmMori.tsx",
+    "person": {
+      "name": "Willian Miura Mori",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/9f332678-6afb-49a6-97e1-51a8cb13fd87"
+    },
+    "description": "Estudante de ciência da computação.",
+    "invertImage": false
+  },
+  "Preview /sections/IAmNathan.tsx": {
+    "__resolveType": "site/sections/IAmNathan.tsx",
+    "person": {
+      "name": "Nathan Luiz Bezerra Martins",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/0368a5aa-84f4-46a9-97db-381a3760d67d"
+    },
+    "description": "Sou um computeiro também",
+    "invertImage": true
+  },
   "Preview /sections/ImageWithParagraph.tsx": {
     "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  },
+  "Preview /sections/Logos.tsx": {
+    "__resolveType": "site/sections/Logos.tsx"
+  },
+  "Preview /sections/Proposal.tsx": {
+    "__resolveType": "site/sections/Proposal.tsx",
+    "description": "       Mais recentemente, na teoria dos grafos têm surgido teoremas que são versões rainbow de alguns teoremas clássicos bem conhecidos. Por exemplo, o Teorema de Dirac (de 1952)  afirma que todo grafo de ordem n > 2 cujo grau mínimo é pelo menos n/2 tem um ciclo hamiltoniano.  Em 2020, Joos e Kim  [Bull. London Math. Soc.] provaram a seguinte versão rainbow do  Teorema de Dirac: dada uma coleção G = {G_1, G_2, ..., G_n} de n grafos não necessariamente distintos,  todos eles sobre um mesmo conjunto V de n vértices, tal que cada G_i tem grau mínimo pelo menos n/2,  então existe uma G-transversal que é um ciclo hamiltoniano sobre V.  Ou seja, existe uma bijeção f entre as n arestas de tal ciclo e {1, 2, ...,n} tal que para cada aresta $e$   desse ciclo temos que $e \\\\in E(G_{f(e)}$.   Se considerarmos que cada grafo G_i  tem todas suas arestas coloridas com uma mesma cor i,  e que a coleção G usa n cores distintas,  então uma  G-transversal  que é um ciclo hamiltoniano   tem arestas com cores de 1 a n (em alguma ordem), o que justifica a denominação rainbow.   A prova apresentada por Joos e Kim não é algorítmica. Temos interesse em analisar  a possibilidade de projetar um algoritmo baseado nessa prova teórica; e se isto for possível, implementar tal algoritmo. Temos interesse em estudar versões rainbow de outros teoremas  clássicos, e quando possível, implementar algoritmos baseados nessas provas teóricas. ",
+    "title": "Proposta",
+    "paragraphs": [
+      "Mais recentemente, na teoria dos grafos têm surgido teoremas que são versões rainbow de alguns teoremas clássicos bem conhecidos. Por exemplo, o Teorema de Dirac (de 1952)  afirma que todo grafo de ordem n > 2 cujo grau mínimo é pelo menos n/2 tem um ciclo hamiltoniano.  Em 2020, Joos e Kim  [Bull. London Math. Soc.] provaram a seguinte versão rainbow do  Teorema de Dirac: dada uma coleção G = {G_1, G_2, ..., G_n} de n grafos não necessariamente distintos,  todos eles sobre um mesmo conjunto V de n vértices, tal que cada G_i tem grau mínimo pelo menos n/2,  então existe uma G-transversal que é um ciclo hamiltoniano sobre V.  Ou seja, existe uma bijeção f entre as n arestas de tal ciclo e {1, 2, ...,n} tal que para cada aresta E desse ciclo temos que E pertence a E(G_{f(E)}. ",
+      "Se considerarmos que cada grafo G_i  tem todas suas arestas coloridas com uma mesma cor i,  e que a coleção G usa n cores distintas,  então uma  G-transversal  que é um ciclo hamiltoniano   tem arestas com cores de 1 a n (em alguma ordem), o que justifica a denominação rainbow.   A prova apresentada por Joos e Kim não é algorítmica. Temos interesse em analisar  a possibilidade de projetar um algoritmo baseado nessa prova teórica; e se isto for possível, implementar tal algoritmo. Temos interesse em estudar versões rainbow de outros teoremas  clássicos, e quando possível, implementar algoritmos baseados nessas provas teóricas.",
+      "Por ora, os resultados desse tipo não são muitos, mas estes despertam grande interesse  de pesquisadores da área de grafos.  Esperamos que este projeto contribua para um bom  aprendizado teórico de resultados e técnicas de prova, além de ajudar no  desenvolvimento  de algoritmos extraídos de provas teóricas. "
+    ]
+  },
+  "Preview /sections/WhoAmIHeader.tsx": {
+    "__resolveType": "site/sections/WhoAmIHeader.tsx",
+    "title": "<p>About us</p>"
   },
   "Preview /sections/hero-1.tsx": {
     "__resolveType": "site/sections/hero-1.tsx"
@@ -117,6 +160,15 @@
   "Preview Sections MyHero": {
     "name": "works!",
     "__resolveType": "site/sections/myHero.tsx"
+  },
+  "Preview site/sections/Hero.tsx": {
+    "__resolveType": "site/sections/Hero.tsx"
+  },
+  "Preview site/sections/IAmMori.tsx": {
+    "__resolveType": "site/sections/IAmMori.tsx"
+  },
+  "Preview site/sections/IAmNathan.tsx": {
+    "__resolveType": "site/sections/IAmNathan.tsx"
   },
   "Preview site/sections/ImageWithParagraph.tsx": {
     "__resolveType": "site/sections/ImageWithParagraph.tsx"
@@ -359,56 +411,5 @@
     "theme": {
       "__resolveType": "Sunset Glow"
     }
-  },
-  "Preview /sections/IAmMori.tsx": {
-    "__resolveType": "site/sections/IAmMori.tsx",
-    "person": {
-      "name": "Willian Miura Mori",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/9f332678-6afb-49a6-97e1-51a8cb13fd87"
-    },
-    "description": "Estudante de ciência da computação.",
-    "invertImage": false
-  },
-  "Preview /sections/IAmNathan.tsx": {
-    "__resolveType": "site/sections/IAmNathan.tsx",
-    "person": {
-      "name": "Nathan Luiz Bezerra Martins",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/0368a5aa-84f4-46a9-97db-381a3760d67d"
-    },
-    "description": "Sou um computeiro também",
-    "invertImage": true
-  },
-  "IAmYoshiko": {
-    "__resolveType": "site/sections/IAmMori.tsx",
-    "person": {
-      "name": "Yoshiko",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/37506e81-208e-4419-b99e-d056020ad36f"
-    },
-    "description": "Professora Doutora titular do Instituto de Matemática e Estatística da USP com foco em pesquisa em Otimização Combinatória e Teoria dos Grafos."
-  },
-  "Preview /sections/WhoAmIHeader.tsx": {
-    "__resolveType": "site/sections/WhoAmIHeader.tsx",
-    "title": "<p>About us</p>"
-  },
-  "Preview /sections/Proposal.tsx": {
-    "__resolveType": "site/sections/Proposal.tsx",
-    "description": "       Mais recentemente, na teoria dos grafos têm surgido teoremas que são versões rainbow de alguns teoremas clássicos bem conhecidos. Por exemplo, o Teorema de Dirac (de 1952)  afirma que todo grafo de ordem n > 2 cujo grau mínimo é pelo menos n/2 tem um ciclo hamiltoniano.  Em 2020, Joos e Kim  [Bull. London Math. Soc.] provaram a seguinte versão rainbow do  Teorema de Dirac: dada uma coleção G = {G_1, G_2, ..., G_n} de n grafos não necessariamente distintos,  todos eles sobre um mesmo conjunto V de n vértices, tal que cada G_i tem grau mínimo pelo menos n/2,  então existe uma G-transversal que é um ciclo hamiltoniano sobre V.  Ou seja, existe uma bijeção f entre as n arestas de tal ciclo e {1, 2, ...,n} tal que para cada aresta $e$   desse ciclo temos que $e \\\\in E(G_{f(e)}$.   Se considerarmos que cada grafo G_i  tem todas suas arestas coloridas com uma mesma cor i,  e que a coleção G usa n cores distintas,  então uma  G-transversal  que é um ciclo hamiltoniano   tem arestas com cores de 1 a n (em alguma ordem), o que justifica a denominação rainbow.   A prova apresentada por Joos e Kim não é algorítmica. Temos interesse em analisar  a possibilidade de projetar um algoritmo baseado nessa prova teórica; e se isto for possível, implementar tal algoritmo. Temos interesse em estudar versões rainbow de outros teoremas  clássicos, e quando possível, implementar algoritmos baseados nessas provas teóricas. ",
-    "title": "Proposta",
-    "paragraphs": [
-      "Mais recentemente, na teoria dos grafos têm surgido teoremas que são versões rainbow de alguns teoremas clássicos bem conhecidos. Por exemplo, o Teorema de Dirac (de 1952)  afirma que todo grafo de ordem n > 2 cujo grau mínimo é pelo menos n/2 tem um ciclo hamiltoniano.  Em 2020, Joos e Kim  [Bull. London Math. Soc.] provaram a seguinte versão rainbow do  Teorema de Dirac: dada uma coleção G = {G_1, G_2, ..., G_n} de n grafos não necessariamente distintos,  todos eles sobre um mesmo conjunto V de n vértices, tal que cada G_i tem grau mínimo pelo menos n/2,  então existe uma G-transversal que é um ciclo hamiltoniano sobre V.  Ou seja, existe uma bijeção f entre as n arestas de tal ciclo e {1, 2, ...,n} tal que para cada aresta $e$   desse ciclo temos que $e \\in E(G_{f(e)}$. ",
-      "Se considerarmos que cada grafo G_i  tem todas suas arestas coloridas com uma mesma cor i,  e que a coleção G usa n cores distintas,  então uma  G-transversal  que é um ciclo hamiltoniano   tem arestas com cores de 1 a n (em alguma ordem), o que justifica a denominação rainbow.   A prova apresentada por Joos e Kim não é algorítmica. Temos interesse em analisar  a possibilidade de projetar um algoritmo baseado nessa prova teórica; e se isto for possível, implementar tal algoritmo. Temos interesse em estudar versões rainbow de outros teoremas  clássicos, e quando possível, implementar algoritmos baseados nessas provas teóricas."
-    ]
-  },
-  "Preview /sections/Logos.tsx": {
-    "__resolveType": "site/sections/Logos.tsx"
-  },
-  "Preview site/sections/Hero.tsx": {
-    "__resolveType": "site/sections/Hero.tsx"
-  },
-  "Preview site/sections/IAmNathan.tsx": {
-    "__resolveType": "site/sections/IAmNathan.tsx"
-  },
-  "Preview site/sections/IAmMori.tsx": {
-    "__resolveType": "site/sections/IAmMori.tsx"
   }
 }
