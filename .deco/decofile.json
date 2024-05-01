@@ -353,6 +353,9 @@
         "__resolveType": "Preview /sections/Proposal.tsx"
       },
       {
+        "__resolveType": "Preview site/sections/reference.tsx"
+      },
+      {
         "__resolveType": "Preview /sections/WhoAmIHeader.tsx"
       },
       {
@@ -374,9 +377,6 @@
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
         "title": "Landing",
         "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/43999173-3786-4a4b-be09-5d7313d0bc3b"
-      },
-      {
-        "__resolveType": "Preview site/sections/reference.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
