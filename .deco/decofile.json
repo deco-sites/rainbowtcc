@@ -374,6 +374,9 @@
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
         "title": "Landing",
         "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/43999173-3786-4a4b-be09-5d7313d0bc3b"
+      },
+      {
+        "__resolveType": "Preview site/sections/reference.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -386,7 +389,8 @@
       "noIndexing": false,
       "titleTemplate": "Rainbow TCC | IME USP",
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/868c223d-6627-460b-b3ca-feaf2b993dbf",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/868c223d-6627-460b-b3ca-feaf2b993dbf"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7868/868c223d-6627-460b-b3ca-feaf2b993dbf",
+      "descriptionTemplate": "%s"
     },
     "global": [
       {
@@ -409,5 +413,15 @@
     "theme": {
       "__resolveType": "Sunset Glow"
     }
+  },
+  "Preview /sections/reference.tsx": {
+    "__resolveType": "site/sections/reference.tsx"
+  },
+  "Preview site/sections/reference.tsx": {
+    "__resolveType": "site/sections/reference.tsx",
+    "paragraphs": [
+      "https://github.com/wmrmrx/TCC"
+    ],
+    "title": "Referencia"
   }
 }

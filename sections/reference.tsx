@@ -16,7 +16,7 @@ export default function Section({ title = "Big Title", paragraphs }: Props) {
       <h1 class="text-4xl font-bold">{title}</h1>
       <div class="flex flex-col gap-5">
         {
-          paragraphs.map((paragraph) => 
+          paragraphs?.map((paragraph) => 
             <p class="text-lg">{paragraph}</p>
           )
         }
